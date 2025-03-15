@@ -170,6 +170,9 @@ marginは基本はtopにかけるが、デザインの都合上ボトムにか�
    overflow: hidden;
  }
  .thumbnail-area img {
+   /* overflow:hidden; を効かせるためdisplayを変更*/
+   display: block;
+   
    transition-duration: 0.3s;
  }
  .text {
@@ -473,6 +476,64 @@ div.ez-toc-widget-container li {
 }
 
 /* end:Easy Table of Contents */
+/* start：プラグイン｜WordPress Popular Posts */
+.entry-content a,
+.entry-summary a,
+.comment-content a,
+.posts-navigation a {
+  box-shadow: inset 0 -1px 0 rgb(15, 15, 15);
+  transition: color 80ms ease-in, box-shadow 130ms ease-in-out;
+}
+
+.entry-title a,
+.entry-meta a,
+.page-links a,
+.page-links a .page-number,
+.entry-footer a,
+.entry-footer .cat-links a,
+.entry-footer .tags-links a,
+.edit-link a,
+.post-navigation a,
+.logged-in-as a,
+.comment-navigation a,
+.comment-metadata a,
+.comment-metadata a.comment-edit-link,
+.comment-reply-link,
+a .nav-title,
+.pagination a,
+.comments-pagination a,
+.site-info a {
+  box-shadow: inset 0 -1px 0 rgb(255, 255, 255);
+  text-decoration: none;
+  transition: color 80ms ease-in, box-shadow 130ms ease-in-out;
+}
+
+.wpp-thumbnail {
+  display: inline;
+  float: left;
+  margin: 0 1rem 0 0;
+  border: none;
+}
+
+.entry-content a img,
+.comment-content a img {
+  box-shadow: 0 0 0 8px #fff;
+}
+
+.wpp-meta,
+.post-stats {
+  display: block;
+  font-size: 0.8em;
+}
+
+.wpp-list li {
+  overflow: hidden;
+  float: none;
+  clear: both;
+  margin-bottom: 1rem;
+}
+
+/* end：プラグイン｜WordPress Popular Posts */
  
  @media screen and (min-width: 768px) {
  
