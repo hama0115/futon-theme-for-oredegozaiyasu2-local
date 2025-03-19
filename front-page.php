@@ -53,6 +53,7 @@
               <?php endif; ?>
             </ul>
           </div>
+          <div class="btn-area"><button class="page-btn" href="">もっとみる</button></div>
         </div>
       </div>
       <div class="content-wrapper">
@@ -108,11 +109,12 @@
               <?php endif; ?>
             </ul>
           </div>
+          <div class="btn-area"><button class="page-btn" href="http://oredegozaiyasu2.local/category/work/">もっとみる</button></div>
         </div>
       </div>
       <div class="content-wrapper">
         <div class="content">
-          <h1 class="page-title">閲覧されている記事</h1>
+          <h1 class="page-title">よく閲覧されている記事</h1>
           <div class="article-list-wrapper">
             <?php echo do_shortcode('[wpp wpp_start="<ul>"" wpp_end="</ul>" range="all" thumbnail_width=96 thumbnail_height=96 stats_views=0 stats_date=1 stats_date_format="Y.m.d" limit=6]'); ?>
           </div>
