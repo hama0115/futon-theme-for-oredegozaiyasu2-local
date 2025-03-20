@@ -1,3 +1,4 @@
+<!-- 「wordpressデザインレシピ集」を参考 -->
 <form action="" class="form-inline kp-header-search-input" role="search">
   <div class="input-group">
     <label for="searchword">サイト内検索</label>
