@@ -384,7 +384,7 @@ marginは基本はtopにかけるが、デザインの都合上ボトムにか�
    color: #fff;
    background-color: #A0D8EF;
  }
- .footer a {
+ .footer-logo {
    font-size: 1.5rem;
  }
  .copyright {
@@ -392,21 +392,25 @@ marginは基本はtopにかけるが、デザインの都合上ボトムにか�
    margin-top: 1rem;
  }
 
+ /*-- フッターのアーカイブ表示(サイドバーにもアーカイブブロックあり。共通の記述はそちらへ) --*/
+ .footer .archive-block {
+  margin: 1em 0;
+ }
+ .footer .yearly-archive li {
+  font-size: 1rem;
+ }
+
  /* ========================
  サイドバー
  ======================== */
 
  /*-- 記事アーカイブ --*/
-  .sidebar-block h3 {
-    margin: 1rem 0;
-  }
-  .sidebar-block ul li {
-    margin-top: 0.5em;
-  }
-  .sidebar-block ul li::before {
-    content: '・';
-  }
-  
+ .yearly-archive li {
+  margin: 0.5em 0;
+ }
+ .yearly-archive li::before {
+  content: '・';
+ }
 
 /*---- プラグイン(本から基本はコードを拝借。本のコードは、プラグイン本体のコードをある程度そのまま上書きしているよう) ----*/
 
@@ -699,6 +703,23 @@ a .nav-title,
    /* 最新の記事エリア */
     .latest-pages-title {
      font-size: 1.5rem;
+   }
+
+   /* ========================
+   フッター
+   ======================== */
+
+   /*-- フッターのアーカイブ表示(サイドバーにもアーカイブブロックあり。共通の記述はそちらへ) --*/   
+   .archive-block h3 {
+     font-size: 1.5rem;
+   }
+   .footer .yearly-archive {
+     display: flex;
+     justify-content: center;
+     gap: 1em;
+   }
+   .footer .yearly-archive li {
+    font-size: 1.3rem;
    }
  
  }
