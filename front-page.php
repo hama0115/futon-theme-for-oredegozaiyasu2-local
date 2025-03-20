@@ -53,7 +53,7 @@
               <?php endif; ?>
             </ul>
           </div>
-          <div class="btn-area"><button class="page-btn" href="">もっとみる</button></div>
+          <div class="btn-area"><button class="page-btn"><a href="http://oredegozaiyasu2.local/latest-posts/">もっとみる</a></button></div>
         </div>
       </div>
       <div class="content-wrapper">
@@ -109,8 +109,9 @@
               <?php endif; ?>
             </ul>
           </div>
-          <div class="btn-area"><button class="page-btn" href="http://oredegozaiyasu2.local/category/work/">もっとみる</button></div>
-        </div>
+          <div class="btn-area">
+            <button class="page-btn"><a href="http://oredegozaiyasu2.local/category/work/">もっとみる</a></button></div>
+          </div>
       </div>
       <div class="content-wrapper">
         <div class="content">

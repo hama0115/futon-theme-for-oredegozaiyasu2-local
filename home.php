@@ -3,7 +3,7 @@
     <main class="main">    
       <div class="content-wrapper">
         <div class="content">
-          <h1 class="page-title">ホーム</h1>
+          <h1 class="page-title">すべての投稿</h1>
           <div class="article-list-wrapper">
             <ul class="article-list">
               <?php if( have_posts() ): while( have_posts() ): the_post(); ?>
@@ -45,6 +45,14 @@
               <?php endif; ?>
             </ul>
           </div>
+          <?php //ページネーション
+            $args = array(
+              'mid_size' => 1, //初期値と同じ
+              'prev_text' => '←',
+              'next_text' => '→'
+            );
+            the_posts_pagination($args);
+          ?>
 
           <section class="profile-area">
              <h2 class="profile-top">プロフィール</h2>

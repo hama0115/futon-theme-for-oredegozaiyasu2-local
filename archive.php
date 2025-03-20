@@ -44,7 +44,7 @@
 
               <?php endif; ?>
             </ul>
-            <?php
+            <?php //ページネーション
             $args = array(
               'mid_size' => 1, //初期値と同じ
               'prev_text' => '←',

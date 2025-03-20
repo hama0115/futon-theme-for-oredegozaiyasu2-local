@@ -79,22 +79,22 @@ marginは基本はtopにかけるが、デザインの都合上ボトムにか�
 .btn-area {
   margin: 2em 0;
 }
- .page-btn {
-   display: block;
-   padding: 0.5em 1em;
-   margin: 0 auto;
-   background-color: #A0D8EF;
-   color: #fff;
-   border: solid 1px #A0D8EF; 
-   border-radius: 20px;
-   font-size: 1rem;
-   transition-duration: 0.3s;
- }
- .page-btn:hover {
-   background-color: #fff;
-   color: #A0D8EF;
-   border: solid 1px #A0D8EF; 
- }
+.page-btn {
+  display: block;
+  padding: 0.5em 1em;
+  margin: 0 auto;
+  background-color: #A0D8EF;
+  color: #fff;
+  border: solid 1px #A0D8EF; 
+  border-radius: 20px;
+  font-size: 1rem;
+  transition-duration: 0.3s;
+}
+.page-btn:hover {
+  background-color: #fff;
+  color: #A0D8EF;
+  border: solid 1px #A0D8EF; 
+}
  
  /* ========================
  ヘッダー
@@ -574,6 +574,25 @@ a .nav-title,
    .single-article img {
      max-width: 85%;
      height: auto;
+   }
+
+   /* ========================
+   コンポーネント
+   ======================== */
+
+   /*---- ボタン ----*/
+   .btn-area {
+     margin: 2em 0;
+   }
+   .page-btn {
+     display: block;
+     padding: 0.5em 1em;
+     margin: 0 auto;
+     background-color: #A0D8EF;
+     color: #fff;
+     border: solid 1px #A0D8EF; 
+     border-radius: 30px;
+     font-size: 1.5rem;
    }
  
    /* ========================
