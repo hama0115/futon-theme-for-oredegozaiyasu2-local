@@ -130,8 +130,6 @@
             </div>
             <p class="profile-description">1985年あたりに生まれ、武庫川大学歴史学科を卒業。いくらでも寝ることができます。</p>
           </section>
-
-          <?php get_sidebar(); ?>
           
         </div>
       </div>

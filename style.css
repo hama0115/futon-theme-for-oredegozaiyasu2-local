@@ -254,6 +254,9 @@ marginは基本はtopにかけるが、デザインの都合上ボトムにか�
  
  /*-- プロフィール欄 --*/
  
+ .profile-area {
+   margin: 1em 0;
+ }
  .profile-top {
    text-align: center;
    font-size: 1.5rem;
@@ -388,6 +391,22 @@ marginは基本はtopにかけるが、デザインの都合上ボトムにか�
    font-size: 1rem;
    margin-top: 1rem;
  }
+
+ /* ========================
+ サイドバー
+ ======================== */
+
+ /*-- 記事アーカイブ --*/
+  .sidebar-block h3 {
+    margin: 1rem 0;
+  }
+  .sidebar-block ul li {
+    margin-top: 0.5em;
+  }
+  .sidebar-block ul li::before {
+    content: '・';
+  }
+  
 
 /*---- プラグイン(本から基本はコードを拝借。本のコードは、プラグイン本体のコードをある程度そのまま上書きしているよう) ----*/
 
