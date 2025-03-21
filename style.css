@@ -404,7 +404,7 @@ marginは基本はtopにかけるが、デザインの都合上ボトムにか�
  label[for="searchword"] {
   display: none;
 }
-.btn {
+#searchform .btn {
   line-height: 1.5em;
   border-width: 0;
   color: #f0264b;
@@ -412,7 +412,7 @@ marginは基本はtopにかけるが、デザインの都合上ボトムにか�
   cursor: pointer;
   background-color: transparent;
 }
-.btn span {
+#searchform .btn span {
   display: none;
 }
 .input-group {
@@ -422,6 +422,7 @@ marginは基本はtopにかけるが、デザインの都合上ボトムにか�
   border-radius: 18px;
   padding: 5px 10px;
   box-shadow: 0 1px 3px rgba(0,0,0,.3) inset;
+  color: #000;
   background-color: #fff;
   width: 200px;
 }
@@ -742,9 +743,6 @@ a .nav-title,
    ======================== */
 
    /*-- フッターのアーカイブ表示(サイドバーにもアーカイブブロックあり。共通の記述はそちらへ) --*/   
-   .archive-block h3 {
-     font-size: 1.5rem;
-   }
    .footer .yearly-archive {
      display: flex;
      justify-content: center;
@@ -757,9 +755,9 @@ a .nav-title,
    /*-- 検索フォーム --*/
    .input-group {
     width: 250px;
-  }
-  .form-control {
-    width: 200px;
-  }   
+   }
+   .form-control {
+     width: 200px;
+   }   
  
  }
