@@ -3,7 +3,9 @@
     <main class="main">    
       <div class="content-wrapper">
         <div class="content">
-          <h2>検索結果</h2>
+          <div class="search-form-block">
+            <?php get_search_form(); ?>
+          </div>
           <div class="article-list-wrapper">
             <ul class="article-list">
               <?php if( have_posts() ): while( have_posts() ): the_post(); ?>
