@@ -18,7 +18,7 @@
                 <a href="<?php the_permalink(); ?>" >
                 
                 <div class="thumbnail-area">
-                  <?php
+                  <?php //アイキャッチ画像があれば表示
                   if(has_post_thumbnail()):
                     the_post_thumbnail('full');
 

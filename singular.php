@@ -23,6 +23,8 @@
                 </ul>
               <?php endif; ?>
 
+              <?php get_template_part( 'template-parts/breadcrumb' ); ?>
+
             </div>
 
             <?php if(has_post_thumbnail()): ?>

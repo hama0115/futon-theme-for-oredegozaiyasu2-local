@@ -6,7 +6,8 @@
           <?php the_archive_title( '<h1 class="page-title">', '</h1>'); ?>
           <div class="article-list-wrapper">
             <ul class="article-list">
-              <?php if( have_posts() ): while( have_posts() ): the_post(); ?>
+              <?php //メインループ開始
+              if( have_posts() ): while( have_posts() ): the_post(); ?>
 
               <li>
                 <a href="<?php the_permalink(); ?>" >
