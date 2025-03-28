@@ -340,6 +340,7 @@ padding: 1rem 0;
 }
 .article-content p {
   margin-bottom: 2em;
+  letter-spacing: 0.05em;
 }
 .article-content img {
   display: block;
