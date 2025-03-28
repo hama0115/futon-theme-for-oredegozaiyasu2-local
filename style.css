@@ -95,6 +95,14 @@ img {
   color: #A0D8EF;
   border: solid 1px #A0D8EF; 
 }
+
+/*---- パンくずリスト ----*/
+.breadcrumb-inner {
+  font-size: 0.625rem;
+}
+.fa-circle-chevron-right::before {
+  color: #74c0fc;
+}
  
 /* ========================
 ヘッダー
@@ -716,6 +724,12 @@ a .nav-title,
    .article-content {
     padding: 2rem 0;
    }
+   .article-content h2 {
+    font-size: 1.5rem;
+  }
+  .article-content h3 {
+    font-size: 1.2rem;
+  }
    .single-article .article-title {
     font-size: 2rem;
      margin-top: 2em;
