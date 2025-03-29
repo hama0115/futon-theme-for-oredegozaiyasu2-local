@@ -455,6 +455,25 @@ content: '・';
 ウィジェット
 ======================== */
 
+/*-- リスト --*/
+.wp-block-list {
+  background-color: #f5f5f5;
+  padding: 1em 2em;
+  margin-bottom: 1em;
+}
+.wp-block-list li{
+  margin-top: 0.5em;
+  line-height: 1.5;
+  text-indent: -1em;
+  padding-left: 1em;
+}
+/* fontawesomeアイコン */
+.wp-block-list li:before{
+  font-family: "Font Awesome 6 Free";
+  content: '\f058';
+  color: #A0D8EF;
+}
+
 /*-- 詩 --*/
 pre.wp-block-verse {
   background-color: #f5f5f5;
@@ -831,6 +850,12 @@ a .nav-title,
    /* ========================
    ウィジェット
    ======================== */
+
+  /*-- リスト --*/
+  /* fontawesomeアイコン */
+  .wp-block-list li:before{
+    padding-right: 1em;
+  }
   
    /*-- 詩 --*/
    pre.wp-block-verse {
