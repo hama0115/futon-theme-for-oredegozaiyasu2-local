@@ -462,6 +462,22 @@ pre.wp-block-verse {
   margin: 2em 0;
 }
 
+/* ========================
+wordpressの装飾
+======================== */
+
+/*---- 動画のキャプション ----*/
+.wp-element-caption {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #c0c0c0;
+}
+/* wpデフォルトのmarginを消す */
+.wp-block-embed :where(figcaption) {
+  margin-top: 0;
+}
+
+
 
 /* ========================
 プラグイン(本から基本はコードを拝借。本のコードは、プラグイン本体のコードをある程度そのまま上書きしているよう)
@@ -817,6 +833,15 @@ a .nav-title,
    pre.wp-block-verse {
     text-align: center;
    }
+
+  /* ========================
+  wordpressの装飾
+  ======================== */
+
+  /*---- 動画のキャプション ----*/
+  .wp-element-caption {
+    font-size: 1rem;
+  }
 
   /* ========================
   プラグイン
