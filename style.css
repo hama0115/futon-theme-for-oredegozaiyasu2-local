@@ -96,14 +96,6 @@ img {
   color: #A0D8EF;
   border: solid 1px #A0D8EF; 
 }
-
-/*---- パンくずリスト ----*/
-.breadcrumb-inner {
-  font-size: 0.625rem;
-}
-.fa-circle-chevron-right::before {
-  color: #74c0fc;
-}
  
 /* ========================
 ヘッダー
@@ -315,9 +307,6 @@ border: solid 1px #000;
 /* カテゴリのCSSはアーカイブページのほうでベースを調節しているので注意 */
 .single-article .category-list {
   margin: 0.5em 0 0.5em 0.5em;
-}
-.single-article .category {
-  padding: 0 1em;
 }
 
 /* アイキャッチエリア */
@@ -648,6 +637,13 @@ a .nav-title,
 /* end：プラグイン｜WordPress Popular Posts */
 /* start：プラグイン｜Breadcrumb navXT*/
 
+.breadcrumb-inner {
+  font-size: 0.875rem;
+}
+.breadcrumb-inner .fas {
+  margin: 0 0.5em;
+}
+
 /* 個別投稿ページでは現在の記事が表示されないようにする */
 .single-post .breadcrumb .current-item {
   display: none;
@@ -657,42 +653,42 @@ a .nav-title,
   display: none;
 }
 
-/* end：プラグイン｜WordPress Popular Posts */
+/* end：プラグイン｜Breadcrumb navXT */
  
- @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
  
-   /* ========================
-   全体
-   ======================== */
+  /* ========================
+  全体
+  ======================== */
  
-   /* 基本フォントをPCサイズでは大きく */
-   body {
-     font-size: 18px;
-   }
+  /* 基本フォントをPCサイズでは大きく */
+  body {
+    font-size: 18px;
+  }
  
-   .single-article img {
-     max-width: 85%;
-     height: auto;
-   }
+  .single-article img {
+    max-width: 85%;
+    height: auto;
+  }
 
-   /* ========================
-   コンポーネント
-   ======================== */
+  /* ========================
+  コンポーネント
+  ======================== */
 
-   /*---- ボタン ----*/
-   .btn-area {
-     margin: 2em 0;
-   }
-   .page-btn {
-     display: block;
-     padding: 0.5em 1em;
-     margin: 0 auto;
-     background-color: #A0D8EF;
-     color: #fff;
-     border: solid 1px #A0D8EF; 
-     border-radius: 30px;
-     font-size: 1.5rem;
-   }
+  /*---- ボタン ----*/
+  .btn-area {
+    margin: 2em 0;
+  }
+  .page-btn {
+    display: block;
+    padding: 0.5em 1em;
+    margin: 0 auto;
+    background-color: #A0D8EF;
+    color: #fff;
+    border: solid 1px #A0D8EF; 
+    border-radius: 30px;
+    font-size: 1.5rem;
+  }
  
    /* ========================
    ヘッダー
@@ -821,5 +817,20 @@ a .nav-title,
    pre.wp-block-verse {
     text-align: center;
    }
+
+  /* ========================
+  プラグイン
+  ======================== */
+
+  /* start：プラグイン｜Breadcrumb navXT*/
+
+  .breadcrumb-inner {
+    font-size: 1rem;
+  }
+  .breadcrumb-inner .fas {
+    margin: 0 0.5em;
+  }
+  /* end：プラグイン｜Breadcrumb navXT */
+
  
- }
+}
