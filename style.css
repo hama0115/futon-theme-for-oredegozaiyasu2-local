@@ -659,6 +659,9 @@ a .nav-title,
 .breadcrumb-inner .fas {
   margin: 0 0.5em;
 }
+.theme-color {
+  color: #A0D8EF;
+}
 
 /* 個別投稿ページでは現在の記事が表示されないようにする */
 .single-post .breadcrumb .current-item {
