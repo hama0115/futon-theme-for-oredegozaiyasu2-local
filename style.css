@@ -11,6 +11,7 @@ SPファーストで記述
 メディアクエリは後半にまとめている
 marginは基本はtopにかけるが、デザインの都合上ボトムにかけたい場合は「margin-bottom」を使う
 優先順位は、プラグイン自体のCSS→style.cssであることに注意(自分のCSSでプラグインのCSSを打ち消していないか要確認)
+最初に静的ファイルを作成してwordpressでオリジナルテーマを作成している。ベースを作ってwordpressに移行した後は、wordpress特有のクラスにCSSを追加していることもある
 */
 
 /* ========================
@@ -299,6 +300,8 @@ border: solid 1px #000;
 }
 
 /*-- 個別投稿ページ --*/
+
+/* */
  
 /* タイトルエリア */
 .single-article .article-title {
@@ -640,6 +643,18 @@ a .nav-title,
   float: none;
   clear: both;
   margin-bottom: 1rem;
+}
+
+/* end：プラグイン｜WordPress Popular Posts */
+/* start：プラグイン｜Breadcrumb navXT*/
+
+/* 個別投稿ページでは現在の記事が表示されないようにする */
+.single-post .breadcrumb .current-item {
+  display: none;
+}
+/* 最後のfontasesomeを非表示にする */
+.single-post .breadcrumb .fas:last-of-type {
+  display: none;
 }
 
 /* end：プラグイン｜WordPress Popular Posts */
