@@ -1,6 +1,6 @@
 <?php
 
-if ( ! function_exists( 'arublogtheme_setup' )):
+if ( ! function_exists( 'futontheme_setup' )):
   function arublogtheme_setup() {
     //アイキャッチ画像を使う
     add_theme_support( 'post-thumbnails' );
@@ -13,7 +13,7 @@ if ( ! function_exists( 'arublogtheme_setup' )):
     );
   }
 endif;
-add_action( 'after_setup_theme', 'arublogtheme_setup' );
+add_action( 'after_setup_theme', 'futontheme_setup' );
 
 //スクリプト、スタイルシートを追加(JavaScript,CSS)
 function enqueue_scripts() {
