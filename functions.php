@@ -1,7 +1,7 @@
 <?php
 
 if ( ! function_exists( 'futontheme_setup' )):
-  function arublogtheme_setup() {
+  function futontheme_setup() {
     //アイキャッチ画像を使う
     add_theme_support( 'post-thumbnails' );
 
