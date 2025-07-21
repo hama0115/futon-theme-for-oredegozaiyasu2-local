@@ -155,6 +155,7 @@ img {
   background-color: var(--main-color);
   overflow-x: hidden;
   width: 0;
+  height: 100vh;
   transition-duration: 0.5s;
 }
 .site-menu.open-menu {
@@ -753,6 +754,7 @@ a .nav-title,
      color: #000;
      background-color: #fff;
      width: auto;
+     height: auto;
    }
    .site-menu ul {
      display: flex;
